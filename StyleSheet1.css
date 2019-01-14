@@ -1,0 +1,29 @@
+﻿body
+{
+    text-align:center;
+    background-color:cornflowerblue;
+}
+#clock {
+    background-color: chocolate;
+    color:aquamarine;
+    width:100%;
+    text-align:center;
+    font-size:2em;
+}
+#clock > div {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: forestgreen;
+}
+#clock div >span {
+        padding: 10px;
+        border-radius: 5px;
+        background-color: darkgray;
+        display:inline-block;
+    }
+input{
+    padding:10px;
+    font-size:1.5em;
+    margin:25px;
+}
